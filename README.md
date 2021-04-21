@@ -287,3 +287,6 @@ def capital_multiple_choice(rounds, num_options, dataset=countries, letters=lett
                 print()
             rounds_run += 1
     print("You got " + str(correct) + "/" + str(rounds_run))
+
+
+capital_multiple_choice(5, 5)
